@@ -1,7 +1,7 @@
 # import spark
 # from pyddq.core import Check
 
-from datalab_qa.checks.base_check import BaseCheck
+from drunken_airflow.checks.base_check import BaseCheck
 
 class ConfigName(BaseCheck):
     def __init__(self):
